@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+:root {
+  --mainColor: #ff6cd7;
+  --bgColor: #0f0e11;
+  --fontColor: #363636;
+  --fontColorDark: #232323;
+  --dark: #171717;
+  --text: #e348a9;
+}
+body{
+  text-decoration: none;
+}

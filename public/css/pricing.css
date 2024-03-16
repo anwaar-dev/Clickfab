@@ -1,0 +1,127 @@
+html{scroll-behavior: smooth;}
+body{
+	background-color: var(--bgColor);
+	margin: 0;
+	border: 0;
+	padding: 10px 0 0 0;
+	font-family: Braah One, sans-serif;
+	font-size: 18px;
+	user-select: none;
+}
+section{
+	background: white;
+}
+a{
+    padding: 8px 18px;
+    background-color: var(--mainColor);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Kalam, sans-serif;
+}
+h2{
+	font-size: 36px;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    color: var(--mainColor);
+}
+span.name{color: var(--mainColor);font-family: Kalam, sans-serif;}
+
+
+#contact{
+	display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+#contact content{
+    width: 40%;
+    max-width: 250px;
+    min-width: 235px;
+    min-height: 225px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 4px 13px 0px #00000045;
+    margin: 45px 10px;
+}
+#contact content div.sec4Div1{
+    width: 80px;
+    margin-top: 20px;
+    height: 80px;
+    display: block;
+    background-color: transparent;
+    background-image: url(../images/one.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    z-index: 3;
+}
+#contact content div.sec4Div2{
+    min-height: 115px;
+    width: 90%;
+    display: flex;
+    border-radius: 8px;
+    padding: 0 0 5px 0;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Geologica, sans-serif;
+}
+#contact content div.sec4Div2 h5{margin-top: 0}
+
+#contact content div.sec4Div2:hover{transform: translateY(-5px);transition-duration: 0.15s}
+
+#contact content div.sec4Div2 a{padding: 8px 16px; transition-duration: 0.3s; font-family: Nunito, sans-serif;}
+#contact content div.sec4Div2 a:hover{background-color: #084ca7}
+
+#contact content.sec4Ctr{
+	background: 0;
+	box-shadow: none;
+	width: fit-content;
+	color: var(--fontColor);
+	align-self: center;
+	font-size: 26px;
+	font-family: Braah One, sans-serif;
+}
+
+.ms2{
+	background: rgb(253,98,221);
+background: linear-gradient(104deg, rgba(253,98,221,1) 35%, rgba(178,34,230,1) 100%);
+}
+.ms2 a{
+	background: linear-gradient(104deg, rgba(253,98,221,1) 36%, rgba(178,34,230,1) 150%);
+}
+.ms2 h2{color:#c734e3}
+
+
+.ms1{
+	background: rgb(0,162,75);
+background: linear-gradient(145deg, rgba(0,162,75,1) 35%, rgba(0,255,51,1) 100%);
+}
+.ms1 a{
+	background: linear-gradient(145deg, rgba(0,162,75,1) 36%, rgba(0,255,51,1) 150%);
+}
+.ms1 a:hover{background: linear-gradient(145deg, rgba(0,162,75,1) 100%, rgba(0,255,51,1) 100%);}
+.ms1 h2{color: rgb(0 180 77)}
+
+/* Section: 5  */
+#sec5{
+    margin: 110px 18% 80px 18%;
+}
+#sec5 h1{
+	font-size: 34px;
+	margin-bottom: 0;
+	color: #101c42;
+}
+#sec5 p{font-family: Nunito, sans-serif;max-width: 590px;font-size: 19px}

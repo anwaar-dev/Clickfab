@@ -1,0 +1,124 @@
+html{scroll-behavior: smooth;}
+body{
+	background-color: var(--bgColor);
+	margin: 0;
+	border: 0;
+	padding: 10px 0 0 0;
+	font-family: Braah One, sans-serif;
+	font-size: 18px;
+	user-select: none;
+}
+section{
+	background: white;
+	margin: 50px 80px;
+}
+a{
+    padding: 8px 18px;
+    background-color: var(--mainColor);
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: Geologica, sans-serif;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: var(--text);
+}
+span{color: var(--mainColor);font-family: Geologica, sans-serif;}
+
+#allThumbnails{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+#allThumbnails content{
+/*	border: 1px solid gray;*/
+	margin: 12px 10px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 8px 0px #00000082;
+	padding: 10px;
+}
+#allThumbnails div.thumbnail{
+	width: 279px;
+	aspect-ratio: 16/9;
+	background-color: red;
+	background-image: url(../images/dummy.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#allThumbnails h6{
+	margin: 10px 0;
+	font-family: Geologica, sans-serif;
+	font-size: 13px;
+}
+
+.allProjects{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+	flex-wrap: wrap;
+}
+.allProjects h1{
+    width: 90%;
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: var(--text);
+}
+.allProjects content{
+    margin: 10px 10px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 21px -10px #00000057;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 170px;
+}
+.allProjects content:hover div.thumbnail{background-image:none;}
+.allProjects div.icon{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 9px;
+    margin: 10px 0;
+}
+.allProjects h6{
+	margin: 10px 0;
+	font-family: Geologica, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: var(--text);
+}
+.allProjects a{
+	font-size: 15px;
+    padding: 6px 12px;
+    background-color: white;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #464b50;
+    border: 2px solid #464b50;
+    font-family: 'Geologica';
+    margin-top: 5px;
+    transition-duration: 0.14s;
+    box-shadow: inset 0 0 #464b50;
+}
+.allProjects a:hover{box-shadow: inset 0px 0 0px 30px #464b50;color: white;background-color: #464b50}
