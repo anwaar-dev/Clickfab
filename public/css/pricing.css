@@ -9,7 +9,7 @@ body{
 	user-select: none;
 }
 section{
-	background: white;
+	/* background: rgb(154, 146, 146); */
 }
 a{
     padding: 8px 18px;
@@ -26,7 +26,9 @@ h2{
     margin-top: 100px;
     color: var(--mainColor);
 }
-span.name{color: var(--mainColor);font-family: Kalam, sans-serif;}
+span.name{
+    color: var(--mainColor);font-family: Kalam, sans-serif;
+}
 
 
 #contact{
@@ -122,6 +124,11 @@ background: linear-gradient(145deg, rgba(0,162,75,1) 35%, rgba(0,255,51,1) 100%)
 #sec5 h1{
 	font-size: 34px;
 	margin-bottom: 0;
-	color: #101c42;
+	color: #ffffff;
 }
-#sec5 p{font-family: Nunito, sans-serif;max-width: 590px;font-size: 19px}
+#sec5 p{
+    font-family: Nunito, sans-serif;
+    max-width: 590px;
+    font-size: 19px;
+    color: #544d54;
+}
