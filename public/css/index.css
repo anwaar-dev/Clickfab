@@ -153,6 +153,7 @@ hr{border: 1px solid #c6c6c6}
     font-weight: 800;
     color: #e8628a;
     text-align: center;
+    color: var(--mainColor);
 }
 #sec3 content{
     margin: 10px 10px;
@@ -214,6 +215,7 @@ h1.Hsec4{
     font-weight: 800;
     margin-left: 130px;
     color: var(--text);
+    color: var(--mainColor);
 }
 #sec4 div{
     width: 100%;
@@ -281,7 +283,7 @@ h1.Hsec4{
     font-size: 28px;
     font-family: 'Montserrat';
     font-weight: 800;
-    color: #e8628a;
+    color: var(--mainColor);
     text-align: center;
 }
 #sec5 content{
@@ -334,7 +336,20 @@ h1.Hsec4{
     border-left: 3px solid #0000000f;
 }
 
-
+#orderHeading{
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    font-family: 'Montserrat';
+}
+#orderHeading a{
+    color: var(--mainColor);
+    background: none;
+    font-family: 'Montserrat';
+    text-decoration: underline;
+    padding: 0;
+}
 
 
 

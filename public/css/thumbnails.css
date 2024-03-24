@@ -28,7 +28,7 @@ h2{
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    color: var(--text);
+    color: var(--mainColor);
 }
 span{color: #ff94d8;font-family: Montserrat, sans-serif;}
 
@@ -128,3 +128,18 @@ hr{
     box-shadow: inset 0 0 #464b50;
 }
 .allProjects a:hover{box-shadow: inset 0px 0 0px 30px #464b50;color: white;background-color: #464b50}
+
+#orderHeading{
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    font-family: 'Montserrat';
+}
+#orderHeading a{
+    color: var(--mainColor);
+    background: none;
+    font-family: 'Montserrat';
+    text-decoration: underline;
+    padding: 0;
+}
