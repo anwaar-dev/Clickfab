@@ -24,5 +24,6 @@ body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 0 rgb(0, 0, 0);
 }
 body::-webkit-scrollbar-thumb {
+  border-radius: 5px;
   background: -webkit-linear-gradient(270deg, rgba(234,98,137,1) 5%, rgba(87,65,255,1) 95%);
 }

@@ -3,13 +3,9 @@ body{
 	background-color: var(--bgColor);
 	margin: 0;
 	border: 0;
-	padding: 10px 0 0 0;
-	font-family: Braah One, sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-size: 18px;
 	user-select: none;
-}
-section{
-	/* background: linear-gradient(90deg, rgba(234,98,137,1) 5%, rgba(87,65,255,1) 95%); */
 }
 a{
     padding: 8px 18px;
@@ -17,7 +13,7 @@ a{
     color: white;
     border-radius: 5px;
     text-decoration: none;
-    font-family: Kalam, sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 h2{
 	font-size: 36px;
@@ -27,7 +23,7 @@ h2{
     color: var(--mainColor);
 }
 span.name{
-    color: var(--text);font-family: Kalam, sans-serif;
+    color: var(--text);font-family: Montserrat, sans-serif;
 }
 
 #contact{
@@ -54,8 +50,9 @@ span.name{
 }
 #contact .bgCard{
     position: relative;
-    width: 470px;
-    height: 270px;
+    width: 310px;
+    height: 255px;
+    border-radius: 36px;
     background: linear-gradient(90deg, rgba(234,98,137,1) 5%, rgba(87,65,255,1) 95%);
 }
 #contact content div.sec4Div0 h3{
@@ -69,10 +66,11 @@ span.name{
 #contact .frCard{
     position: absolute;
     width: 270px;
-    bottom: -205px;
+    bottom: -110px;
     height: 300px;
-    background-color: var(--bgColor);
-    box-shadow: -2px -2px 16px 0px #ffffff69;
+    border-radius: 28px;
+    background-color: #18161b;
+    box-shadow: 0px 8px 6px 0px #000000;
 }
 #contact content div.sec4Div1{
     width: 80px;
@@ -93,19 +91,18 @@ span.name{
     display: flex;
     border-radius: 8px;
     padding: 0 0 5px 0;
-    background-color: var(--bgColor);
+    background-color: #18161b;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
-    font-family: Geologica, sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 #contact content div.sec4Div2 h5{margin-top: 0; color: #ffff;}
 
-#contact content div.sec4Div2:hover{transform: translateY(-5px);transition-duration: 0.15s}
 
 #contact content div.sec4Div2 a{padding: 8px 16px; transition-duration: 0.3s; font-family: Nunito, sans-serif;}
-#contact content div.sec4Div2 a:hover{background-color: #084ca7}
+#contact content div.sec4Div2 a:hover{background-color: #e12aaf}
 
 #contact content.sec4Ctr{
 	background: 0;
@@ -114,28 +111,8 @@ span.name{
 	color: var(--fontColor);
 	align-self: center;
 	font-size: 26px;
-	font-family: Braah One, sans-serif;
+	font-family: Montserrat, sans-serif;
 }
-
-.ms2{
-	background: rgb(253,98,221);
-    background: linear-gradient(104deg, rgba(253,98,221,1) 35%, rgba(178,34,230,1) 100%);
-}
-.ms2 a{
-	background: linear-gradient(104deg, rgba(253,98,221,1) 36%, rgba(178,34,230,1) 150%);
-}
-.ms2 h2{color:#c734e3}
-
-
-.ms1{
-	background: rgb(0,162,75);
-background: linear-gradient(145deg, rgba(0,162,75,1) 35%, rgba(0,255,51,1) 100%);
-}
-.ms1 a{
-	background: linear-gradient(145deg, rgba(0,162,75,1) 36%, rgba(0,255,51,1) 150%);
-}
-.ms1 a:hover{background: linear-gradient(145deg, rgba(0,162,75,1) 100%, rgba(0,255,51,1) 100%);}
-.ms1 h2{color: rgb(0 180 77)}
 
 /* Section: 5  */
 #sec5{
@@ -150,5 +127,5 @@ background: linear-gradient(145deg, rgba(0,162,75,1) 35%, rgba(0,255,51,1) 100%)
     font-family: Nunito, sans-serif;
     max-width: 590px;
     font-size: 19px;
-    color: var(--fontColor);
+    color: #e6e6e6;
 }

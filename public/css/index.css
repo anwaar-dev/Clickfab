@@ -41,8 +41,7 @@ hr{border: 1px solid #c6c6c6}
     font-family: 'Montserrat';
     text-align: center;
     font-weight: 500;
-    /* -webkit-text-stroke: 3px #342d3a; */
-    line-height: 100%;
+    line-height: 111%;
     background: -webkit-linear-gradient(0deg, rgba(234,98,137,1) 5%, rgba(87,65,255,1) 95%);
     animation: colors infinite 0.52s;
     background-clip: text;

@@ -3,13 +3,13 @@ body{
 	background-color: var(--bgColor);
 	margin: 0;
 	border: 0;
-	padding: 10px 0 0 0;
+	padding: 0 0 0 0;
 	font-family: Braah One, sans-serif;
 	font-size: 18px;
 	user-select: none;
 }
 section{
-	background: white;
+	background: transparent;
 	margin: 50px 80px;
 }
 a{
@@ -30,7 +30,7 @@ h2{
     font-weight: 800;
     color: var(--text);
 }
-span{color: var(--mainColor);font-family: Geologica, sans-serif;}
+span{color: #ff94d8;font-family: Montserrat, sans-serif;}
 
 #allThumbnails{
 	margin-top: 30px;
@@ -41,25 +41,31 @@ span{color: var(--mainColor);font-family: Geologica, sans-serif;}
 	flex-wrap: wrap;
 }
 #allThumbnails content{
-/*	border: 1px solid gray;*/
-	margin: 12px 10px;
-	border-radius: 5px;
-	box-shadow: 0px 2px 8px 0px #00000082;
-	padding: 10px;
+    border: 1px solid #e348aa42;
+    margin: 12px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 12px 2px #000000;
+    padding: 10px;
+    background: #0f0e10;
 }
 #allThumbnails div.thumbnail{
 	width: 279px;
 	aspect-ratio: 16/9;
-	background-color: red;
 	background-image: url(../images/dummy.png);
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+hr{
+	    background: #461d39;
+    border: none;
+    height: 1px;
+}
 #allThumbnails h6{
 	margin: 10px 0;
-	font-family: Geologica, sans-serif;
+	font-family: Nunito, sans-serif;
 	font-size: 13px;
+	color: #e2c5ff;
 }
 
 .allProjects{
